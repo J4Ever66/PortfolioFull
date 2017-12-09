@@ -3,8 +3,8 @@
 	position: fixed;
 	margin: 0 auto;
 	top: 1px;
-	left: calc(20% - 40px);
-	width: 80px;
+	left: calc(80% - 40px);
+	width: 88px;
 	height: 42px;
 	z-index: 999;
 	ul{
@@ -15,14 +15,16 @@
 			width: 40px;
 			height: 40px;
 			border-radius: 60px;
+			border: 1px solid #111;
 			background-repeat: no-repeat;
 			a{
-				background-color: rgba(255, 255, 255, .15);
-				background-image: radial-gradient(at center bottom,  rgba(0, 0, 0, 0) 55%, rgba(255, 255, 255, .9) 99%);
+				width: 100%;
+				height: 100%;
 				border-radius: 60px;
+				background-color: rgba(255, 255, 255, .05);
+				background-image: radial-gradient(at center bottom,  rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, .9) 99%);
 				&:hover{
 					background-image: radial-gradient(at center bottom,  rgba(0, 0, 0, 0) 40%, rgba(255, 255, 255, .9) 99%);
-					border-radius: 60px;
 				}
 			}
 			&:hover{
@@ -49,14 +51,14 @@
 
 
 #fb{
-	background-image: url("../img/fb3.svg");
+	background-image: url("../img/fb.svg");
 	background-position: right;
 	background-size: contain;
 }
 
 
 #ee{
-	background-image: url("../img/logos/ee.svg");
+	background-image: url("../img/ee.svg");
 	background-position: center;
 	background-size: contain;
 }
