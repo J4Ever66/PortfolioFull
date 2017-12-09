@@ -6,6 +6,13 @@ h1{
 	text-align: center;
 	padding: .5%;
 	font-family: 'Indie Flower', cursive;
+	margin: 0;
+}
+
+h1.front{
+	position: absolute;
+	bottom: 0;
+	right: 10%;
 }
  
 
@@ -19,7 +26,6 @@ a{
 	&:hover{
 		color: $acc-color1;
 		text-shadow: 0 0 0 #111;
-		font-weight: 800;
 	}
 }
 
@@ -56,4 +62,16 @@ p.intro{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+
+
+@media (max-width: 750px){
+	h1.front{
+		left: 0;
+		bottom: -1.5em;
+		width: 100%;
+		text-align: center;
+	}
+	
 }

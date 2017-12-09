@@ -21,12 +21,9 @@
 /* INDEX */
 
 main{
-	display: block;
-	position: relative;
 	padding-top: 70px;
 	margin-bottom: 90px;
 	background-color: $main-color1;
-
 	section{
 		padding: 2.5%;
 	}
@@ -40,12 +37,13 @@ section.landing{
 }
 
 main, .container{
+	display: block;
+	position: relative;
 	width: 100%;
 	max-width: 1800px;
 	min-width: 400px;
 	margin: 0 auto;
 }
-
 
 
 
@@ -60,4 +58,8 @@ main, .container{
 		align-self: flex-end;
 	}
 	
+	section.landing{
+		padding-top: 3em;
+	}
+
 }

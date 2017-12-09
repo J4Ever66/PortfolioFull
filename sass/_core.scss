@@ -18,8 +18,9 @@ img.portrait{
 }
 
 svg.brand{
+	width: 100%;
 	position: relative;
 	max-height: 220px;
-
+	stroke-width: 2;
 	stroke: #FFF;
 }

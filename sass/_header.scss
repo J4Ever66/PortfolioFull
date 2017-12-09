@@ -8,3 +8,23 @@ header{
 	background-color: $main-color1;
 	box-shadow: 0 2px 3px #111;
 }
+
+
+svg.brand{
+	width: auto;
+	position: relative;
+	max-height: 220px;
+	stroke-width: 2.2;
+	stroke: #FFF;
+	padding-left: 10%;
+}
+
+
+
+@media (max-width: 450px){
+	svg.brand{
+		width: 100%;
+		padding-left: 0;
+	}
+	
+}

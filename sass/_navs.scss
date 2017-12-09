@@ -50,3 +50,26 @@ label.menu{
 	text-shadow: 1px 1px 1px #111;
 	z-index: 99;
 }
+
+
+
+/* NAV SNAP */
+
+@media (max-width: 450px){
+	main{
+		padding-top: 20px;
+	}
+
+	nav.primary{
+		width: 100%;
+	}
+
+	.popper{
+		left: calc(50% - 9px);
+	}
+
+	label.menu{
+		left: calc(50% - 1em);
+	}
+	
+}
