@@ -17,8 +17,21 @@ svg.brand{
 	stroke-width: 2.2;
 	stroke: #FFF;
 	padding-left: 10%;
+	animation: breathe 5s infinite;
 }
 
+@keyframes breathe{
+	0%{
+			stroke-width: 1;
+	} 
+	50%{
+			stroke-width: 2.2;
+	}
+	100%{
+			stroke-width: 1;
+	}
+
+}
 
 
 @media (max-width: 750px){

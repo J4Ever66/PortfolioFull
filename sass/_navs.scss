@@ -44,12 +44,12 @@ label.menu{
 	display: block;
 	position: absolute;
 	top: -16px;
-	left: 42px;
+	left: 40px;
 	font-family: monospace;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #111;
 	z-index: 99;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 
@@ -82,8 +82,9 @@ label.menu{
 	}
 
 	label.menu{
-		left: calc(50% - 1em);
-		font-size: 1.4em;
+		left: calc(50% - 1.2em);
+		font-size: 1.8em;
+		top: -24px;
 	}
 	
 }
