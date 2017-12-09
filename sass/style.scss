@@ -1,0 +1,23 @@
+/* Setup */
+@import "reset";
+@import "mixins";
+@import "variables";
+@import "fonts";
+@import "globals";
+
+@import "core";
+
+/* WP parts */
+@import "header";
+@import "homepage";
+@import "sidebar";
+@import "footer";
+
+/* CUSTOM */
+@import "navs";
+@import "typography";
+@import "dock";
+@import "grid";
+@import "responsive";
+@import "about";
+@import "contact";
