@@ -23,10 +23,6 @@
 main{
 	display: block;
 	position: relative;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1800px;
-	min-width: 400px;
 	padding-top: 70px;
 	margin-bottom: 90px;
 	background-color: $main-color1;
@@ -43,14 +39,19 @@ section.landing{
 
 }
 
-
+main, .container{
+	width: 100%;
+	max-width: 1800px;
+	min-width: 400px;
+	margin: 0 auto;
+}
 
 
 
 
 /* GRID SNAP */
 
-@media (max-width: 750px){
+@media (max-width: 850px){
 
 	.flex{
 		flex-direction: column;

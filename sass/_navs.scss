@@ -3,7 +3,7 @@ nav.primary{
 	font-family: monospace;
 	position: absolute;
 	width: 120px;
-	background-color: $main-color1;
+	background-color: $sub-color1;
 	top: 0;
 	z-index: 9;
 	box-shadow: 1px 1px 3px #111;
@@ -21,23 +21,23 @@ nav.primary{
 	}
 }
 
-// on click, position middle / position left
+// on click, position middle / position left 
 .popper{
 	position: absolute;
 	width: 19px;
 	height: 19px;
 	bottom: -22px;
 	left: 48px;
-	background-color: $sub-color1;
+	background-color: $acc-color1;
 	color: #FFF;
 	font-size: 1em;
 	line-height: 1em;
 	text-align: center;
 	font-family: serif;
-	border: 1px solid $acc-color1;
-	box-shadow: 0 0 1px #111;
+	border: 1px solid $sub-color1;
+	box-shadow: 0 0 1px #111; 
 }
-
+ 
 
 
 label.menu{
