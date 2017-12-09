@@ -4,7 +4,7 @@ h1{
 	color: $acc-color1;
 	font-size: 3em;
 	text-align: center;
-	padding: 2.5%;
+	padding: .5%;
 	font-family: sans-serif;
 }
 
@@ -20,19 +20,22 @@ a{
 	}
 }
 
-
-
+p{
+	padding: 2.5%;
+}
 
 
 p.intro{
 	display: block;
 	position: relative;
-	max-width: 240px;
-	margin-top: 120px;
+	max-width: 420px;
+	text-indent: 3em;
+	text-align: justify;
+	padding: 1.5%;
 }
 
 
-
+ 
 
 .creds{
 	position: absolute;

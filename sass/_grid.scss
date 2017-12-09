@@ -6,6 +6,7 @@
 	flex-direction: row;
 	align-items: center;
 	vertical-align: middle;
+	justify-content: space-between;
 }
 
 
@@ -25,6 +26,7 @@ main{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1800px;
+	min-width: 400px;
 	padding-top: 70px;
 	margin-bottom: 90px;
 	background-color: $main-color1;
@@ -48,11 +50,13 @@ section.landing{
 
 /* GRID SNAP */
 
-@media (max-width: 550px){
+@media (max-width: 750px){
 
 	.flex{
 		flex-direction: column;
 	}
-
+	.flex-items{
+		align-self: flex-end;
+	}
 	
 }
