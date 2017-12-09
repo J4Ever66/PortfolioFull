@@ -1,4 +1,9 @@
+figure.gallery{
+	margin: 0;
+	width: 100%;
+}
+
 .thumbnail{
-	width: 128px;
+	max-width: 128px;
 	height: 128px;
 }

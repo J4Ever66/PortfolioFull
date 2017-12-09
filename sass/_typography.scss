@@ -49,12 +49,13 @@ p{
 p.intro{
 	display: block;
 	position: relative;
-	max-width: 520px;
+	max-width: 420px;
 	text-indent: 3em;
 	text-align: justify;
 	padding: 1.5%; 
 	line-height: 1.3em;
 	color: $p-color1;
+	margin: 0 auto;
 }
 
 p.skills{

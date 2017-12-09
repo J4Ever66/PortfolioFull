@@ -7,6 +7,7 @@
 	align-items: center;
 	vertical-align: middle;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 
@@ -29,6 +30,7 @@ main{
 	}
 }
 
+
 section.landing{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -36,6 +38,11 @@ section.landing{
 
 }
 
+section.full{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 0;
+}
 main, .container{
 	display: block;
 	position: relative;
