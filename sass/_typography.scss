@@ -13,6 +13,7 @@ h1.front{
 	position: absolute;
 	bottom: 0;
 	right: 10%;
+	z-index: 1;
 }
  
 
@@ -68,10 +69,11 @@ p.intro{
 
 @media (max-width: 750px){
 	h1.front{
-		left: 0;
-		bottom: -1.5em;
-		width: 100%;
-		text-align: center;
+		display: none;
+	}
+
+	p.intro{
+		margin-top: 20px;
 	}
 	
 }

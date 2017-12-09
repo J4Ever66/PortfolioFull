@@ -6,6 +6,7 @@ html{
 
 body{
 	background-color: #000;
+	padding-bottom: 80px;
 }
 
 
@@ -17,10 +18,3 @@ img.portrait{
 	padding: 1.5%;
 }
 
-svg.brand{
-	width: 100%;
-	position: relative;
-	max-height: 220px;
-	stroke-width: 2;
-	stroke: #FFF;
-}

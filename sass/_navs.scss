@@ -12,9 +12,9 @@ nav.primary{
 
 
 		li{
-			line-height: 2em;
+			line-height: 2.8em;
 			a{
-
+				font-size: 1.4em;
 
 			}
 		}
@@ -39,29 +39,42 @@ nav.primary{
 }
  
 
-
+ 
 label.menu{
 	display: block;
 	position: absolute;
 	top: -14px;
-	left: 45px;
+	left: 42px;
 	font-family: monospace;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #111;
 	z-index: 99;
+	font-size: 1.2em;
 }
 
 
 
 /* NAV SNAP */
 
-@media (max-width: 450px){
+@media (max-width: 750px){
 	main{
 		padding-top: 20px;
 	}
 
 	nav.primary{
 		width: 100%;
+		ul{
+		display: none;
+
+
+		li{
+			line-height: 4em;
+			a{
+				font-size: 2em;
+
+			}
+		}
+	}
 	}
 
 	.popper{
@@ -70,6 +83,7 @@ label.menu{
 
 	label.menu{
 		left: calc(50% - 1em);
+		font-size: 1.4em;
 	}
 	
 }
