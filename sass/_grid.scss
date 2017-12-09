@@ -60,12 +60,13 @@ main, .container{
 
 	.flex{
 		flex-direction: column;
+		justify-content: flex-end;
 	}
 	.flex-items{
 		align-self: flex-end;
 	}
 	.popped{
-		padding-top: 300px;	
+		padding-top: 300px;	 
 	}
 
 }
