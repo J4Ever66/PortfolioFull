@@ -1,0 +1,1 @@
+function load(){$("figure").lightGallery({selector:"a",mode:"lg-fade",speed:200,zoom:!1,share:!1,showThumbByDefault:!1})}$(document).ready(load);

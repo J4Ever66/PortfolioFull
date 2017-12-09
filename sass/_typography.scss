@@ -1,11 +1,14 @@
 
 
-h1{
-	color: $acc-color1;
-	font-size: 3em;
+h1, h2, h3{
 	text-align: center;
 	padding: .5%;
 	font-family: 'Indie Flower', cursive;
+	color: $acc-color1;
+}
+
+h1{
+	font-size: 4em;
 	margin: 0;
 }
 
@@ -16,6 +19,14 @@ h1.front{
 	z-index: 1;
 }
  
+h2{
+	font-size: 2.4em;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
 
 a{
 	color: #FFF;
@@ -46,7 +57,17 @@ p.intro{
 	color: $p-color1;
 }
 
+p.skills{
+	max-width: 520px;
+	margin: 0 auto;
+}
+ul{
+	line-height: 1.5em;
+}
 
+ul.square{
+	list-style: square;
+}
  
  
 .creds{
@@ -67,7 +88,7 @@ p.intro{
 
 
 
-@media (max-width: 750px){
+@media (max-width: 850px){
 	h1.front{
 		display: none;
 	}
