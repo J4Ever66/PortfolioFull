@@ -20,6 +20,11 @@ svg.brand{
 	animation: breathe 5s infinite;
 }
 
+a.home{
+display: inline-block;
+margin-left: 4%;
+}
+
 @keyframes breathe{
 	0%{
 			stroke-width: 1;
@@ -35,9 +40,10 @@ svg.brand{
 
 
 @media (max-width: 850px){
-	svg.brand{
+	svg.brand, a.home{
 		width: 100%;
 		padding-left: 0;
+		margin: 0;
 	}
 	
 }
