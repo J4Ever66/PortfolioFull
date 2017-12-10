@@ -12,8 +12,7 @@
 
 
 .flex-item{
-	min-height: 400px;
-	min-width: 300px;
+	margin: auto;
 }
 
 
@@ -22,26 +21,21 @@
 /* INDEX */
 
 main{
-	padding-top: 70px;
 	margin-bottom: 90px;
 	background-color: $main-color1;
 	section{
 		padding: 2.5%;
 	}
-}
+} 
 
 section.compress{
 	max-width: 1200px;
 	margin: 0 auto;
-
+	padding-top: 40px;
 
 }
 
-section.full{
-	margin-top: 40px;
-	margin-bottom: 40px;
-	padding: 0;
-}
+
 main, .container{
 	display: block;
 	position: relative;
@@ -52,22 +46,29 @@ main, .container{
 }
 
 article.flex{
+	display: block;
 	position: relative;
 	width: 100%;
-	height: 900px;
 }
 
 .skill{
+	display: block;
+	position: relative;
 
+	margin: auto;
+	h3{
+		width: 100%;
+	}
 	p{
-		max-width: 200px;
+		max-height: 300px;
+		max-width: 300px;
 	}
 }
 
 
 /* GRID SNAP */
 
-@media (max-width: 850px){
+@media (max-width: 550px){
 
 	.flex{
 		flex-direction: column;

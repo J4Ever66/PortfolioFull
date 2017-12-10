@@ -10,6 +10,7 @@ h1, h2, h3{
 h1{
 	font-size: 4em;
 	margin: 0;
+	padding-top: 80px;
 }
 
 h1.front{
@@ -47,7 +48,9 @@ p{
 	text-indent: 3em;
 	max-width: 520px;
 	text-align: justify;
-
+	font-family: sans-serif;
+	color: $p-color1; 
+	text-shadow: 1px 1px 2px #111;
 }
 
 
@@ -55,7 +58,6 @@ p.intro{
 	display: block;
 	position: relative;
 	padding: 1.5%; 
-	color: $p-color1;
 	margin: 0 auto;
 }
 
