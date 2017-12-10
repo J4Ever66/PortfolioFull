@@ -31,7 +31,7 @@ h3{
 
 a{
 	color: #FFF;
-	display: block;
+	display: block; 
 	text-align: center;
 	text-decoration: none;
 	margin: 0 auto;
@@ -42,6 +42,12 @@ a{
 	}
 }
 
+p, li{
+	color: $p-color1; 
+	text-shadow: 1px 1px 2px #111;
+	
+}
+
 p{
 	padding: 1.5%;
 	line-height: 1.3em;
@@ -49,8 +55,6 @@ p{
 	max-width: 520px;
 	text-align: justify;
 	font-family: sans-serif;
-	color: $p-color1; 
-	text-shadow: 1px 1px 2px #111;
 }
 
 
@@ -90,15 +94,3 @@ ul.square{
   user-select: none;
 }
 
-
-
-@media (max-width: 850px){
-	h1.front{
-		display: none;
-	}
-
-	p.intro{
-		margin: 20px;
-	}
-	
-}

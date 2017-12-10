@@ -35,3 +35,30 @@
 
 
 
+/* GRID SNAP */
+
+@media screen and (max-width: 850px){
+
+	.flex{
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.flex-items{
+		align-self: flex-end;
+	}
+	main{
+		padding-top: 0;	 
+	}
+		h1.front{
+		display: none;
+	}
+
+	p.intro{
+		margin: 20px;
+	}
+		svg.brand, a.home{
+		display: block;
+		padding-left: 0;
+		margin: 0 auto;
+	}
+}
