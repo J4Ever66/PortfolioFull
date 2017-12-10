@@ -42,23 +42,24 @@ a{
 }
 
 p{
-	padding: 2.5%;
+	padding: 1.5%;
+	line-height: 1.3em;
+	text-indent: 3em;
+	max-width: 520px;
+	text-align: justify;
+
 }
 
 
 p.intro{
 	display: block;
 	position: relative;
-	max-width: 520px;
-	text-indent: 3em;
-	text-align: justify;
 	padding: 1.5%; 
-	line-height: 1.3em;
 	color: $p-color1;
 	margin: 0 auto;
 }
 
-p.skills{
+p.skill-intro{
 	max-width: 520px;
 	margin: 0 auto;
 }

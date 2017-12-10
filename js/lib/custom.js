@@ -33,6 +33,6 @@ function popPopper(){
 		$(".popper").text("-");
 	}
 	_popSemaphore = !_popSemaphore;
-	$("main").toggleClass("popped");
+	//$("main").toggleClass("popped");
 	console.log("poop"); 
 }
